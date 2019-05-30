@@ -4,7 +4,7 @@ terraform {
   backend "s3" {
     region = "ap-northeast-2"
     bucket = "terraform-nalbam-seoul"
-    key    = "dev-circlci.tfstate"
+    key    = "dev-circleci.tfstate"
   }
   required_version = ">= 0.12"
 }

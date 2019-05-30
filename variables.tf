@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "name" {
-  default = "api-circlci"
+  default = "api-circleci"
 }
 
 variable "stage" {
